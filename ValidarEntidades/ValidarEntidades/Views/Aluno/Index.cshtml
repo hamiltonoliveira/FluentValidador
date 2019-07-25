@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Aluno";
+}
+
+@model ValidarEntidades.Models.Aluno
+
+
+<br />
+<br />
+
+<div class="card" style="width:300px">
+
+    <div class="card-body">
+        <form asp-action="Inserir" method="post">
+            Nome: <input asp-for="@Model.Nome" class="form-control" /> <span class="text-danger" asp-validation-for="@Model.Nome"></span>
+            <br />
+            Email: <input asp-for="@Model.Email" class="form-control" /> <span class="text-danger" asp-validation-for="@Model.Email"></span>
+            <br />
+            Idade: <input asp-for="@Model.Idade" class="form-control" /> <span class="text-danger" asp-validation-for="@Model.Idade"></span>
+
+            <br /><br />
+            <input type="submit" value="submtit" />
+        </form>
+    </div>
+</div>

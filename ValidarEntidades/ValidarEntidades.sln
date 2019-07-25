@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidarEntidades", "ValidarEntidades\ValidarEntidades.csproj", "{3657348F-58E8-4DB7-BE3F-A3D9B5EC2DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{B9635DBC-C9B8-4823-8449-69E9CE20673D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3657348F-58E8-4DB7-BE3F-A3D9B5EC2DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3657348F-58E8-4DB7-BE3F-A3D9B5EC2DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3657348F-58E8-4DB7-BE3F-A3D9B5EC2DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3657348F-58E8-4DB7-BE3F-A3D9B5EC2DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9635DBC-C9B8-4823-8449-69E9CE20673D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9635DBC-C9B8-4823-8449-69E9CE20673D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9635DBC-C9B8-4823-8449-69E9CE20673D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9635DBC-C9B8-4823-8449-69E9CE20673D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09FE0F5C-CE46-4669-871D-F1CFF4EF972D}
+	EndGlobalSection
+EndGlobal
